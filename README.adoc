@@ -23,9 +23,7 @@ Testing:
 curl http://localhost:8081
 ----
 
-Or use a browser:
 
-http://localhost:8081
 
 
 
