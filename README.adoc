@@ -33,6 +33,8 @@ Testing:
 curl http://localhost:8081
 ----
 
+NOTE: Now run it in a browser and add numbers with http://localhost:8081
+
 
 
 
