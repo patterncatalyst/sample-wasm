@@ -11,11 +11,17 @@ Must have your GOROOT set.  e.g. /usr/lib/go-<version number>
 
 Compiling:
 
+[source]
+----
 docker run -d -p 8081:8080 wasm
+----
 
 Testing:
 
-Curl the result: curl http://localhost:8081
+[source]
+----
+curl http://localhost:8081
+----
 
 Or use a browser:
 
