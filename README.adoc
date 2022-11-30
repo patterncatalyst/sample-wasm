@@ -13,7 +13,17 @@ Compiling:
 
 [source]
 ----
-docker run -d -p 8081:8080 wasm
+podman build -t wasm . 
+----
+
+NOTE: If your .config/containers/containers.conf registry is not set, it should let you select the registry and use the dockerhub registry entry.
+
+
+Running:
+
+[source]
+----
+podman run -d --name sample-wasm -p 8081:8080 localhost/wasm 
 ----
 
 Testing:
